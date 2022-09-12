@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.Audio;
 
-namespace SoundManager {
+namespace SoundManager_for_Unity {
     
     [CreateAssetMenu(fileName = "new Sound", menuName = "Create Sound", order = 0)]
     public class Sound : ScriptableObject  {

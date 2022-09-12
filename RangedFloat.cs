@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace SoundManager {
+namespace SoundManager_for_Unity {
 	
 	[Serializable]
 	public struct RangedFloat {
