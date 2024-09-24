@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Unity.VisualScripting;
+using UnityEngine;
 using UnityEngine.Audio;
 
 namespace SoundManager_for_Unity {
@@ -11,7 +12,6 @@ namespace SoundManager_for_Unity {
 		
 		//Reproduce el clip de musica en loop
 		public override void Play(AudioSource source) {
-			clip.loop = true;
 			source.clip = clip;
 			source.outputAudioMixerGroup = mixerGroup;
 			source.volume = volume;

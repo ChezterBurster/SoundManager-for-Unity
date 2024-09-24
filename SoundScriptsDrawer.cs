@@ -1,6 +1,7 @@
 using UnityEngine;
-using System.Collections;
 using UnityEditor;
+using SoundManager_for_Unity;
+using UnityEngine.UIElements;
 
 [CustomPropertyDrawer(typeof(RangedFloat), true)]
 public class SoundScriptsDrawer : PropertyDrawer
@@ -24,11 +25,11 @@ public class SoundScriptsDrawer : PropertyDrawer
         float rangeMax = 1;
 
         // Obtener los atributos personalizados de rango mínimo y máximo
-        var ranges = (MinMaxRangeAttribute[])fieldInfo.GetCustomAttributes(typeof(MinMaxRangeAttribute), true);
+        var ranges = (MinMaxSlider[])fieldInfo.GetCustomAttributes(typeof(MinMaxSlider), true);
         if (ranges.Length > 0)
         {
-            rangeMin = ranges[0].Min;
-            rangeMax = ranges[0].Max;
+            rangeMin = ranges[0].minValue;
+            rangeMax = ranges[0].maxValue;
         }
 
         // Ancho de las etiquetas de los límites del rango
