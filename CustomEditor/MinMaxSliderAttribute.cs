@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace SoundManagerAPI
+namespace SoundManagerAPI.CustomEditor
 {
     public class MinMaxSliderAttribute : PropertyAttribute
     {

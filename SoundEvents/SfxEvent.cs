@@ -1,14 +1,13 @@
 ﻿using UnityEngine;
-using UnityEngine.Audio;
+using SoundManagerAPI.CustomEditor;
 
-namespace SoundManagerAPI
+namespace SoundManagerAPI.SoundEvents
 {
 	[CreateAssetMenu(fileName = "New SfxEvent", menuName = "SoundEvent/SfxEvent", order = 1)]
 	public class SfxEvent : SoundEvent
 	{
-
 		[SerializeField][MinMaxSlider(0f, 1.5f)] private RangedFloat volume;    //Rango de valores para el volumen
-		[SerializeField][MinMaxSlider(0.5f, 2f)] private RangedFloat pitch;     //Rango de valores para el pitch
+		[SerializeField][MinMaxSlider(0.5f, 2f)] private RangedFloat pitch;    //Rango de valores para el pitch
 
 		// Reproduce el sonido
 		public override void Play(AudioSource source)

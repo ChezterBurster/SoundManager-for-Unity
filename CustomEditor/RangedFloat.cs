@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SoundManagerAPI
+namespace SoundManagerAPI.CustomEditor
 {
 	[Serializable]
 	public struct RangedFloat

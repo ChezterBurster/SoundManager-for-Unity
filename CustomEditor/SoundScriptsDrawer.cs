@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEditor;
 
-namespace SoundManagerAPI
+namespace SoundManagerAPI.CustomEditor
 {
     [CustomPropertyDrawer(typeof(RangedFloat), true)]
     public class SoundScriptsDrawer : PropertyDrawer
