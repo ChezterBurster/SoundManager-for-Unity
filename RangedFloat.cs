@@ -1,11 +1,11 @@
 ﻿using System;
-using UnityEngine;
 
-namespace SoundManager_for_Unity {
-	
+namespace SoundManagerAPI
+{
 	[Serializable]
-	public struct RangedFloat {
-		[Range(0f, 2f)]public float minValue;
-		[Range(0f, 2f)]public float maxValue;
+	public struct RangedFloat
+	{
+		public float minValue;
+		public float maxValue;
 	}
 }
