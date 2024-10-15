@@ -31,8 +31,8 @@ Here's a basic example of how to use the SoundManager:
     SoundEventManager.TriggerSound();
 
 ## Requirements
--Unity 2022.3.33f or higher.
--Basic understanding of Unity's Event System and ScriptableObjects.
+- Unity 2022.3.33f or higher.
+- Basic understanding of Unity's Event System and ScriptableObjects.
 
 ## References
 This API is based on concepts from the video tutorial: [Unite 2016 - Overthrowing the MonoBehaviour Tyranny in a Glorious Scriptable Object Revolution](https://www.youtube.com/watch?v=6vmRwLYWNRo)
