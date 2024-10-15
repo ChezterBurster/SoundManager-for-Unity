@@ -11,11 +11,11 @@ This repository provides a simple API to manage audio files in Unity using an ev
 To implement this SoundManager in your project, follow these steps:
 
 1. Clone or download the repository.
-2. Add the SoundManager.cs file to your project.
+2. Add the files to your project.
 3. Review the code in SoundManager.cs for guidance on how to call and manage sounds in your game.
-4. Usage Example
 
-## Here's a basic example of how to use the SoundManager:
+## Usage Example
+Here's a basic example of how to use the SoundManager:
 
     // Define a method to handle the sound trigger event
     private void HandleSoundTrigger()
